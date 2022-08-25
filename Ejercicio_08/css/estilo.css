@@ -5,6 +5,11 @@ h1{
     padding-left: 170px;
 }
 
+body{
+    margin: auto;
+    width: 900px;
+}
+
 #verde{
     text-align: center;
     font-family: 'Lucida Sans Unicode';
@@ -21,11 +26,15 @@ h1{
 
 div{
     border: black 1px solid;
-    width: 50%;
+    position:relative;
+    left: 150px;
+    bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h2{
-    text-decoration: underline black 1px;
+    border-bottom: grey 0.5px solid;
     color: rgb(51, 190, 51);
     font-family: 'Lucida Sans Unicode';
 }
