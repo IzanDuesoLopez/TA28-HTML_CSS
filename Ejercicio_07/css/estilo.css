@@ -1,5 +1,36 @@
 h1{
+    text-align: left;
+    font-family: 'Lucida Sans Unicode';
+    letter-spacing: 3px;
+    padding-left: 170px;
+}
+
+#verde{
     text-align: center;
     font-family: 'Lucida Sans Unicode';
     letter-spacing: 3px;
+    color: rgb(24, 148, 24);
+}
+
+#naranja{
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    letter-spacing: 3px;
+    color: rgb(231, 185, 34);
+}
+
+div{
+    border: black 1px solid;
+    width: 50%;
+}
+
+h2{
+    text-decoration: underline black 1px;
+    color: rgb(51, 190, 51);
+    font-family: 'Lucida Sans Unicode';
+}
+
+p{
+    font-family: 'Lucida Sans Unicode';
+    font-size: 15px;
 }
