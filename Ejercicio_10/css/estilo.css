@@ -5,8 +5,43 @@ h1 {
     padding-left: 170px;
 }
 
+img{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    background-image: linear-gradient(white,grey);
+}
+
+#footer{
+    font-size: 15px;
+    color: lightgray;
+    position: relative;
+    left: 150px;
+    bottom: 220px;
+}
+
+.enlace{
+    color: lightgray;
+    background-image: linear-gradient(white, white);
+    padding: 1px 1px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 3px;
+    text-decoration: underline;
+}
+
+.enlace:hover{
+    color: lightgray;
+    background-image: linear-gradient(white, white);
+    padding: 1px 1px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 3px;
+    text-decoration: underline;
+}
+
 a {
-    background-color: #6feb73;
+    background-image: linear-gradient(rgb(218, 214, 214), rgb(124, 252, 124));
     color: rgb(37, 37, 37);
     padding: 14px 30px;
     width: 50px;
@@ -17,7 +52,7 @@ a {
 }
 
 a:hover {
-    background-color: #e98383;
+    background-image: linear-gradient(rgb(218, 214, 214), rgb(247, 117, 85));
     color: rgb(37, 37, 37);
     padding: 14px 30px;
     width: 50px;
@@ -28,7 +63,7 @@ a:hover {
 }
 
 a:active{
-    background-color: #e98383;
+    background-image: linear-gradient(rgb(218, 214, 214), rgb(247, 117, 85));
     color: rgb(247, 247, 247);
     padding: 14px 30px;
     width: 50px;
@@ -58,6 +93,7 @@ body {
 }
 
 div {
+    background-image: linear-gradient(rgb(221, 221, 221), white, rgb(221, 221, 221));
     border: black 1px solid;
     position: relative;
     left: 150px;
