@@ -1,0 +1,12 @@
+body{
+    background-color: lightcyan;
+}
+
+h1, p{
+    color: red;
+    font-family: 'Franklin Gothic Medium';
+}
+
+p{
+    font-size: 25px;
+}
